@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Handlee', cursive, 'sans-serif';
+    background-color: #ffffff;
+    color: #ffffff;
+    background-image: url("./diamond-sunset.svg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.root{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.root h1 {
+    letter-spacing: 1.3px;
+}
+
+#clock{
+    font-size: 6rem;
+    letter-spacing: 5px;
+    padding: 0px;
+}
+.test{
+    width: auto;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(20, 20, 20);
+}
